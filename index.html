@@ -54,6 +54,8 @@
   .card p { color: #a9b2e8; font-size: 13px; line-height: 1.8; margin: 0; min-height: 46px; }
   .card .lv { color: #ffd479; font-size: 12px; margin-top: 10px; letter-spacing: 1px; }
   /* ---------- 终极技能按钮 ---------- */
+  .fb-link { color: #7d8bff; text-decoration: none; border-bottom: 1px dashed rgba(125, 139, 255, 0.6); padding-bottom: 1px; }
+  .fb-link:hover { color: #4df3ff; border-color: #4df3ff; }
   .ultbtn {
     position: fixed; right: 20px; bottom: 56px; z-index: 5;
     padding: 14px 24px; font-size: 16px; font-weight: 800; letter-spacing: 2px;
@@ -71,13 +73,14 @@
 
 <div class="overlay" id="menu">
   <h1 class="title">霓虹风暴</h1>
-  <p class="subtitle">N E O N · S T O R M</p>
+  <p class="subtitle">N E O N · S T O R M · v3.0</p>
   <p class="help">
     <b>WASD / 方向键</b> 移动 · <b>鼠标</b> 瞄准 · <b>按住左键 / 自动开火</b> 射击<br>
     击杀敌人获取经验,<b>升级时三选一强化战机</b>(点击卡片或按 1 / 2 / 3)<br>
     击杀充能「超载」,<b>满格按 空格 / 右键</b> 释放终极:全屏清场 + 5 秒无敌火力全开<br>
     <b>F</b> 切换自动开火 · <b>M</b> 静音 · <b>P</b> 暂停 · 连击提升得分倍率
   </p>
+  <p class="help"><a class="fb-link" href="https://github.com/3369610023-oss/neon-storm/issues" target="_blank" rel="noopener">💡 觉得哪里好玩/要改?在 GitHub 提反馈</a></p>
   <button class="btn" id="btnStart">开 始</button>
 </div>
 
@@ -88,6 +91,7 @@
     <span class="best" id="bestLine">历史最佳 0</span>
   </div>
   <p id="newbest">★ 新纪录!★</p>
+  <p class="help" style="margin: -4px 0 0;"><a class="fb-link" href="https://github.com/3369610023-oss/neon-storm/issues" target="_blank" rel="noopener">💡 反馈 / 优化建议</a></p>
   <button class="btn" id="btnRetry">再 来 一 局</button>
 </div>
 

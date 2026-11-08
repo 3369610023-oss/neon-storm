@@ -1,0 +1,33 @@
+name: 反馈 / 优化建议
+description: 告诉我你觉得哪里好玩、哪里需要改进
+labels: ["反馈"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢体验 **霓虹风暴 NeonStorm**!🎮
+        直接写就行,不用客套——吐槽最有价值。
+  - type: dropdown
+    id: type
+    attributes:
+      label: 类型
+      options:
+        - 优化建议(手感/平衡/节奏)
+        - Bug 报告
+        - 新点子(新怪物/新技能/新玩法)
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: 具体内容
+      description: 比如"终极充能太慢""第 5 波开始太挤""想要 Boss 战"
+      placeholder: 你的感受就是迭代方向……
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 设备 / 浏览器(可选)
+      placeholder: 例如 Windows Edge / iPhone Safari

@@ -2,6 +2,16 @@
 
 单文件、零依赖的网页几何霓虹射击游戏。Canvas 2D 渲染 + WebAudio 合成音效,双击即玩,无需安装任何东西。
 
+## 🎮 在线试玩
+
+**[https://3369610023-oss.github.io/neon-storm/](https://3369610023-oss.github.io/neon-storm/)**(GitHub Pages,电脑手机均可)
+
+当前版本 **v3.0**,更新日志见 [Releases](https://github.com/3369610023-oss/neon-storm/releases)。
+
+## 💬 反馈与优化建议
+
+觉得哪里好玩、哪里要改,欢迎[提个 Issue](https://github.com/3369610023-oss/neon-storm/issues/new/choose)——吐槽就是迭代方向;游戏内的开始界面和结算界面也有「反馈」直达入口。
+
 ## 玩法
 
 - **WASD / 方向键** 移动 · **鼠标** 瞄准 · 默认自动开火(按住左键也可手动射击)
